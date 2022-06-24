@@ -1,0 +1,28 @@
+/* d5bdaf
+e3d5ca
+f5ebe0
+d6ccc2
+edede9 */
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.main {
+    background-color: #d5bdaf;
+}
+
+
+.sidebar {
+    font-size: 1.5rem;
+    height: 100vh;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 3rem;
+
+}
+
+.input {
+    display: none;
+}
