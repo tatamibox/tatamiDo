@@ -26,3 +26,7 @@ edede9 */
 .input {
     display: none;
 }
+
+.projectTitle {
+    font-size: 5rem;
+}
