@@ -67,9 +67,21 @@ nameAdd.addEventListener('click', () => {
         taskList.push(newTask);
         for (let i = 0; i <= taskList.length - 1; i++) {
             const taskDiv = document.createElement('div');
+            const removeTaskDiv = document.createElement('button');
+            removeTaskDiv.type = 'button';
+            removeTaskDiv.innerHTML = 'Delete'
+            removeTaskDiv.classList.add('btn');
+            removeTaskDiv.classList.add('btn-danger');
+            removeTaskDiv.addEventListener('click', () => {
+                taskDiv.remove();
+                taskList.splice(i, 1);
+            })
+
             taskDiv.innerHTML = taskList[i].objective;
+            taskDiv.appendChild(removeTaskDiv);
             taskContainer.appendChild(taskDiv);
         }
+
         newListingDiv.appendChild(taskContainer);
     })
 
