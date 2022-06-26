@@ -30,3 +30,7 @@ edede9 */
 .projectTitle {
     font-size: 5rem;
 }
+
+ul {
+    list-style-type: none;
+}
