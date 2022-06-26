@@ -81,6 +81,9 @@ nameAdd.addEventListener('click', () => {
             taskDiv.appendChild(removeTaskDiv);
             taskContainer.appendChild(taskDiv);
         }
+        addTaskForm.style.display = 'none';
+        addNewTask.style.display = 'inline';
+        addTaskInput.value = '';
 
         newListingDiv.appendChild(taskContainer);
     })
@@ -105,6 +108,7 @@ nameAdd.addEventListener('click', () => {
     addNewTask.addEventListener('click', () => {
         addTaskForm.style.display = 'inline';
         addNewTask.style.display = 'none';
+
     })
 
 
