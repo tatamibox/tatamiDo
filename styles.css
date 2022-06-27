@@ -46,3 +46,7 @@ ul {
     display: flex;
     flex-direction: row;
 }
+
+.projectAdder {
+    font-weight: bold;
+}
