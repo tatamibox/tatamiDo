@@ -34,3 +34,15 @@ edede9 */
 ul {
     list-style-type: none;
 }
+
+.userInput {
+    margin-top: 1.5rem;
+    border-radius: 10px;
+    width: 15rem;
+    height: 3rem;
+}
+
+.projectForm {
+    display: flex;
+    flex-direction: row;
+}
